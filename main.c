@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 int main()
-{
-	printf("%c", ft_toupper('l'));
-
+{            
+	char dest[1];
+	char str[] = "cicciobello";
+	printf("La lunghezza della stringa è: %zu", ft_strlcpy(dest, str, 7));
+	printf("\nLa stringa di destinazione è: %s",dest);
 	return 0;
 }
