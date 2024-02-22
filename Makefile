@@ -9,6 +9,13 @@ files 	   =  ft_toupper \
 			 ft_isprint \
 			 ft_strlen  \
 			 ft_strlcpy \
+			 ft_strlcat \
+			 ft_strchr \
+			 ft_strrchr \
+			 ft_strncmp \
+			 ft_strnstr \			
+
+
 
 Compiler	= gcc
 
