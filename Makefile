@@ -19,7 +19,8 @@ files 	   =  ft_toupper \
 			 ft_memcpy \
 			 ft_memset \
 			 ft_bzero \
-			 ft_memmove			
+			 ft_memmove \
+			 ft_atoi			
 
 Compiler	= gcc
 
