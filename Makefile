@@ -15,7 +15,8 @@ files 	   =  ft_toupper \
 			 ft_strncmp \
 			 ft_strnstr \
 			 ft_memchr \
-			 ft_memcmp 			
+			 ft_memcmp \
+			 ft_memcpy			
 
 Compiler	= gcc
 
