@@ -19,6 +19,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 int 	ft_strncmp(char *s1, char *s2, unsigned int n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t n);
+void	*ft_memchr(const void *s, int c, size_t n);
 
 #endif
 
