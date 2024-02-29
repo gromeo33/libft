@@ -20,7 +20,8 @@ files 	   =  ft_toupper \
 			 ft_memset \
 			 ft_bzero \
 			 ft_memmove \
-			 ft_atoi			
+			 ft_atoi \
+			 ft_strdup			
 
 Compiler	= gcc
 
