@@ -21,7 +21,8 @@ files 	   =  ft_toupper \
 			 ft_bzero \
 			 ft_memmove \
 			 ft_atoi \
-			 ft_strdup			
+			 ft_strdup \			
+			 ft_calloc 
 
 Compiler	= gcc
 
