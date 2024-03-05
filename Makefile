@@ -23,7 +23,8 @@ files 	   =  ft_toupper \
 			 ft_atoi \
 			 ft_strdup \			
 			 ft_calloc \
-			 ft_substr
+			 ft_substr \
+			 ft_strjoin
 
 Compiler	= gcc
 
