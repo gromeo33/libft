@@ -26,7 +26,8 @@ files 	   =  ft_toupper \
 			 ft_substr \
 			 ft_strjoin \
 			 ft_strtrim \
-			 ft_strmapi
+			 ft_strmapi \
+			 ft_striteri
 
 Compiler	= gcc
 
