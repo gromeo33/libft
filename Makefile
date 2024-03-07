@@ -1,35 +1,38 @@
 Library		= libft
 
-files 	   =  ft_toupper \
-			 ft_tolower \
-			 ft_isalnum \
-			 ft_isalpha \
-			 ft_isascii \
-			 ft_isdigit \
-			 ft_isprint \
-			 ft_strlen  \
-			 ft_strlcpy \
-			 ft_strlcat \
-			 ft_strchr \
-			 ft_strrchr \
-			 ft_strncmp \
-			 ft_strnstr \
-			 ft_memchr \
-			 ft_memcmp \
-			 ft_memcpy \
-			 ft_memset \
-			 ft_bzero \
-			 ft_memmove \
-			 ft_atoi \
-			 ft_strdup \			
-			 ft_calloc \
-			 ft_substr \
-			 ft_strjoin \
-			 ft_strtrim \
-			 ft_strmapi \
-			 ft_striteri \
-			 ft_putchar_fd
-
+files 	   = ft_toupper \
+			ft_tolower \
+			ft_isalnum \
+			ft_isalpha \
+			ft_isascii \
+			ft_isdigit \
+			ft_isprint \
+			ft_strlen \
+			ft_strlcpy \
+			ft_strlcat \
+			ft_strchr \
+			ft_strrchr \
+			ft_strncmp \
+			ft_strnstr \
+			ft_memchr \
+			ft_memcmp \
+			ft_memcpy \
+			ft_memset \
+			ft_bzero \
+			ft_memmove \
+			ft_atoi \
+			ft_strdup \
+			ft_substr \
+			ft_strjoin \
+			ft_strtrim \
+			ft_strmapi \
+			ft_striteri \
+			ft_putchar_fd \
+			ft_putstr_fd \
+			ft_putendl_fd \
+			ft_calloc \
+			ft_putnbr_fd
+			
 Compiler	= gcc
 
 CmpFlags	= -Wall -Wextra -Werror
@@ -58,4 +61,3 @@ fclean: clean
 re: fclean all
 
 .PHONY: all, clean, fclean, re
-
