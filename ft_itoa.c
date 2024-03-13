@@ -1,11 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: giromeo <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/03/12 15:03:56 by giromeo           #+#    #+#             */
+/*   Updated: 2024/03/12 15:04:06 by giromeo          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include"libft.h"
-
-/**
- * Allocates (with malloc(3)) and returns a string representing the integer
- * received as an argument.Negative numbers must be handled.
-
- * Returns the string representing the integer or NULL if the allocation fails.
-**/
 
 static int	ft_lennum(long num)
 {
