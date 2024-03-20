@@ -16,6 +16,8 @@ void	*ft_calloc(size_t c, size_t b)
 {
 	void	*p;
 
+	if (c && b && c > 4294967295 / b)
+		return (NULL);
 	p = malloc (c * b);
 	if (p == NULL)
 		return (p);
